@@ -7,7 +7,7 @@ import { Search, Grip, Bell, User } from 'lucide-vue-next'
     <img src="/popules_logo.png" alt="Popules Logo" class="h-11 w-auto">
     
     <!-- Search -->
-    <div class="flex-1 mx-6 pl-15">
+    <div class="flex-1 mx-6 pl-10">
       <div class="relative">
         <div class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none ">
           <Search class="h-6 w-6 text-gray-400" />

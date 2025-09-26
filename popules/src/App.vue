@@ -2,9 +2,10 @@
 import Header from './components/Header.vue'
 import Sidebar from './components/Sidebar.vue'
 import CategoryTabs from './components/CategoryTabs.vue';
+import MainContent from './components/MainContent.vue';
 
 export default {
-  components: { Header, Sidebar ,CategoryTabs }
+  components: { Header, Sidebar ,CategoryTabs , MainContent}
 }
 </script>
 
@@ -16,7 +17,7 @@ export default {
       <div class="flex-1 flex flex-col">
         <CategoryTabs />
         <main class="flex-1 p-6 ">
-          <h1 class="text-xl font-semibold">Main Content Area</h1>
+          <MainContent/>
         </main>
       </div>
     </div>
