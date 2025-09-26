@@ -11,7 +11,7 @@ export default {
   <div class="min-h-screen bg-white flex flex-col">
     <Header />
 
-    <div class="flex flex-1">
+    <div class="flex">
       <Sidebar />
 
       <main class="flex-1 p-6 bg-gray-50">
